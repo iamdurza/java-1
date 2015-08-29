@@ -5,7 +5,7 @@ import skilstak.c;
 
 public class HelloWorld {
   public static void main(String[] args) {
-    System.out.println(c.cl + c.m + "Hello World!");
+    System.out.println(c.cl + c.y + "Hello World!");
   }
 }
 
