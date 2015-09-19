@@ -1,4 +1,4 @@
-final public class Charizard implements Pokemon {
+final public class Charizard implements PokemonInterface {
 
 }
 

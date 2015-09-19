@@ -1,13 +1,17 @@
-public interface PokemonInterface { 
-    public abstract int speed;
-    public abstract String type;
-    public abstract int type;
-    public abstract int attack;
-    public abstract int specialAttak;
-    public abstract int attack;
-    public abstract int SpecialDefense;
-    public abstract Move[] moves;
-    public abstract Ability[] abilities;
+import java.util.ArrayList;
+
+
+public abstract interface PokemonInterface { 
+    public float height = 0;
+    public float weight = 0;
+    public int speed = 0;
+    public String type = "";
+    public int attack = 0;
+    public int specialAttak = 0;
+    public int defence = 0;
+    public int SpecialDefense = 0;
+    public ArrayList<Move> moves = new ArrayList<Move>();
+    public ArrayList<Ability> abilities = new ArrayList<Ability>();
 
 
 }
