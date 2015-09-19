@@ -5,7 +5,8 @@ public abstract interface PokemonInterface {
     public float height = 0;
     public float weight = 0;
     public int speed = 0;
-    public String type = "";
+    public int hp = 0;
+    public ArrayList<Type> type = new ArrayList<Type>();
     public int attack = 0;
     public int specialAttak = 0;
     public int defence = 0;
