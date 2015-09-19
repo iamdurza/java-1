@@ -1,5 +1,4 @@
-final public class Charizard extends Pokemon {
-
-
+final public class Charizard implements Pokemon {
 
 }
+
