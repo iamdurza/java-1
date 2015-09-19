@@ -1,4 +1,4 @@
-public interface Pokemon { 
+public interface PokemonInterface { 
     public abstract int speed;
     public abstract String type;
     public abstract int type;
