@@ -2,8 +2,8 @@ import java.util.ArrayList;
 
 
 public abstract interface PokemonInterface { 
-    public float height = 0;
-    public float weight = 0;
+    public double height = 0;
+    public double weight = 0;
     public int speed = 0;
     public int hp = 0;
     public ArrayList<Type> type = new ArrayList<Type>();
