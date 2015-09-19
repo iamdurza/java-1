@@ -15,10 +15,10 @@ final public class Charizard implements PokemonInterface {
     public ArrayList<Type> type = new ArrayList<Type>();
     
     public Charizard() {
-        moves.add(new Growl()) 
-        //moves.add(new Scratch()) 
-        //moves.add(new Ember()) 
-        //moves.add(new Leer()) 
+        moves.add(new Growl()); 
+        //moves.add(new Scratch()); 
+        //moves.add(new Ember()); 
+        //moves.add(new Leer()); 
     }
 
 }
