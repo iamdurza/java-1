@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public final class SkilMon {
 
     public int attack, defense, exp, happiness, hp, 
-               spAttack, spDefence, speed, total, evolvesAt,
+               spAttack, spDefence, speed, total, evolvesAt;
 
     public String species;
 
